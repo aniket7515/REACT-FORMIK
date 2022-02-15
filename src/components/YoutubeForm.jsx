@@ -38,3 +38,10 @@ export default YoutubeForm
 // step 1 in managing form state    
 // fist give initial value to the input form fiels and then give onchange event to formik.handlechange and then assign value as formik.values.nameofinputfield  
 
+// step2  handling form submission    
+// int the form tag apply onSubmit={formik.handleSubmit}   
+// and then 
+// onSubmit: values=>{
+//     console.log('Form Data', values)
+// }
+
